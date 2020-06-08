@@ -28,9 +28,6 @@ export class PaymentPage {
 
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad PaymentPage');
-  }
 
   nextPage(){
     this.pedido.pagamento=this.formGroup.value;
